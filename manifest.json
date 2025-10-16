@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Slop Evader",
+  "version": "1.0",
+  "description": "Search the world before generative AI",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Slop Evader"
+  },
+  "permissions": [],
+  "applications": {
+    "gecko": {
+      "id": "shlopshlop",
+      "strict_min_version": "48.0"
+    }
+  }
+}

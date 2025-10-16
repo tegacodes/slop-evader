@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      @font-face {
+        font-family: "Shlop";
+        src: url("shloprg.otf") format("opentype");
+      }
+      body {
+        width: 400px;
+        padding: 15px;
+        font-family: Arial, sans-serif;
+        background-color: #ffff9d;
+      }
+
+      h2 {
+        font-family: Shlop, sans-serif;
+        font-size: 4em;
+        margin-top: 0;
+        margin-bottom: 15px;
+        color: #bc7bc8;
+      }
+      h3 {
+        margin-top: 0;
+        font-weight: normal;
+        font-size: 12px;
+        font-style: italic;
+        margin-bottom: 12px;
+        color: #333;
+      }
+      .search-item {
+        margin-bottom: 12px;
+      }
+      .search-item label {
+        display: block;
+        margin-bottom: 4px;
+        font-weight: bold;
+        font-size: 13px;
+        color: #555;
+      }
+      .search-row {
+        display: flex;
+        gap: 8px;
+      }
+      input {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+      }
+      input:focus {
+        outline: none;
+        border-color: #4caf50;
+      }
+      button {
+        padding: 8px 16px;
+        background-color: #a6e04a;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Slop Evader</h2>
+    <h3>Search the web before generative AI (prior to Nov 30th 2022):</h3>
+
+    <div class="search-item">
+      <label>Google</label>
+      <div class="search-row">
+        <input
+          type="text"
+          class="search-input"
+          data-site="google"
+          placeholder="Search Google..."
+        />
+        <button class="go-btn" data-site="google">▶</button>
+      </div>
+    </div>
+
+    <div class="search-item">
+      <label>Reddit</label>
+      <div class="search-row">
+        <input
+          type="text"
+          class="search-input"
+          data-site="reddit"
+          placeholder="Search Reddit..."
+        />
+        <button class="go-btn" data-site="reddit">▶</button>
+      </div>
+    </div>
+
+    <div class="search-item">
+      <label>Quora</label>
+      <div class="search-row">
+        <input
+          type="text"
+          class="search-input"
+          data-site="quora"
+          placeholder="Search Quora..."
+        />
+        <button class="go-btn" data-site="quora">▶</button>
+      </div>
+    </div>
+
+    <div class="search-item">
+      <label>Mumsnet</label>
+      <div class="search-row">
+        <input
+          type="text"
+          class="search-input"
+          data-site="mumsnet"
+          placeholder="Search Mumsnet..."
+        />
+        <button class="go-btn" data-site="mumsnet">▶</button>
+      </div>
+    </div>
+
+    <div class="search-item">
+      <label>Pinterest</label>
+      <div class="search-row">
+        <input
+          type="text"
+          class="search-input"
+          data-site="pinterest"
+          placeholder="Search Pinterest..."
+        />
+        <button class="go-btn" data-site="pinterest">▶</button>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
