@@ -7,10 +7,14 @@
     "default_popup": "popup.html",
     "default_title": "Slop Evader"
   },
+  "icons": {
+    "48": "logo-48.png",
+    "96": "logo-96.png"
+  },
   "permissions": [],
   "applications": {
     "gecko": {
-      "id": "shlopshlop",
+      "id": "shlopshlop@example.com",
       "strict_min_version": "48.0"
     }
   }
