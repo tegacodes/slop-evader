@@ -10,32 +10,32 @@ function performSearch(site) {
     switch (site) {
       case "google":
         url = `https://www.google.com/search?q=${encodeURIComponent(
-          query
+          query,
         )}&tbs=cdr:1,cd_max:11/30/2022`;
         break;
       case "reddit":
         url = `https://www.google.com/search?q=site:reddit.com+${encodeURIComponent(
-          query
+          query,
         )}&tbs=cdr:1,cd_max:11/30/2022`;
         break;
       case "quora":
         url = `https://www.google.com/search?q=site:quora.com+${encodeURIComponent(
-          query
+          query,
         )}&tbs=cdr:1,cd_max:11/30/2022`;
         break;
       case "stackexchange":
         url = `https://www.google.com/search?q=site:stackexchange.com+${encodeURIComponent(
-          query
+          query,
         )}&tbs=cdr:1,cd_max:11/30/2022`;
         break;
       case "mumsnet":
         url = `https://www.google.com/search?q=site:mumsnet.com+${encodeURIComponent(
-          query
+          query,
         )}&tbs=cdr:1,cd_max:11/30/2022`;
         break;
       case "pinterest":
         url = `https://www.google.com/search?q=site:pinterest.com+${encodeURIComponent(
-          query
+          query,
         )}&tbs=cdr:1,cd_max:11/30/2022`;
         break;
     }
@@ -43,7 +43,7 @@ function performSearch(site) {
     console.log("Opening URL:", url);
 
     if (url) {
-      browser.tabs.create({ url: url });
+      chrome.tabs.create({ url: url });
     }
   }
 }
