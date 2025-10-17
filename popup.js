@@ -23,6 +23,11 @@ function performSearch(site) {
           query
         )}&tbs=cdr:1,cd_max:11/30/2022`;
         break;
+      case "stackexchange":
+        url = `https://www.google.com/search?q=site:stackexchange.com+${encodeURIComponent(
+          query
+        )}&tbs=cdr:1,cd_max:11/30/2022`;
+        break;
       case "mumsnet":
         url = `https://www.google.com/search?q=site:mumsnet.com+${encodeURIComponent(
           query
