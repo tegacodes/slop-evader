@@ -19,9 +19,3 @@ Google is one of the few search tools that offers strict date filtering. Even Du
 No browser add-on will save us. We need collective action and pushback that goes beyond individual tools to avoid maching learning. But I hope this project inspires more work and thinking on tools that support a politics of refusal. We shouldn't be satisfied with a status quo where out-of-touch billionaires get to shape the values, priorities and technologies we build as societies.
 
 It's very easy to do these searches without this extensions, this tool is just a convenience.
-
-### But why Mumsnet?
-
-Having a baby radically reconfigures your relationship to the internet. Suddenly you need strangers to tell you how to make a small human sleep, eat, shit, burb—the full catalogue of basic biological functions that feels overwhelming until someone on a forum shares their experience on figuring it out.
-
-I'm aware Mumsnet has become synonymous with transphobia for some, and I'm fully committed to trans rights and opposed to transphobia in all its forms. But every platform here—Reddit, YouTube, the rest—hosts racist, misogynistic, and transphobic content. Why does Mumsnet get singled out while Reddit, still crawling with actual nazis, passes without comment? Maybe it's worth noticing that a platform associated with reproduction gets held to a different standard.
