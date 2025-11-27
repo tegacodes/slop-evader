@@ -20,7 +20,7 @@ No browser add-on will save us. We need collective action and pushback that goes
 
 ### But why Mumsnet?
 
-Having a baby reconfigures your relationship to the internet. Suddenly you need strangers to tell you how to make a small human sleep, eat, shit, speak—the full catalogue of basic biological functions that feel impossible until someone on a forum says they figured it out.
+Having a baby radically reconfigures your relationship to the internet. Suddenly you need strangers to tell you how to make a small human sleep, eat, shit, burb—the full catalogue of basic biological functions that often feel overwhelming until someone on a forum shares their experience on figuring it out.
 
 I'm aware Mumsnet has become synonymous with transphobia for some of its members, and I'm opposed to transphobia in all its forms. But every platform here—Reddit, YouTube, the rest—hosts racist, misogynistic, and transphobic content. Many have done far less than Mumsnet to moderate it. So why does Mumsnet get singled out as irredeemably compromised while Reddit, still crawling with actual nazis, passes without comment?
 
