@@ -16,7 +16,7 @@ Google is one of the few search tools that offers strict date filtering. Even Du
 
 ### Will this tool solve our AI problems?
 
-No, browser add-on will not save us. We need collective action and pushback that goes beyond individual tools to avoid AI. However, I hope this project inspires more work and thinking on the politics of
+No browser add-on will save us. We need collective action and pushback that goes beyond individual tools to avoid AI. But I hope this project inspires more work and thinking on tools that support a politics of refusal. We shouldn't be satisfied with a status quo where out-of-touch billionaires get to shape the values, priorities and technologies we build as societies.
 
 ### But why Mumsnet?
 
