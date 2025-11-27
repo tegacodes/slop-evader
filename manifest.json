@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Slop Evader",
-  "version": "1.0",
-  "description": "Search the world before generative AI",
+  "version": "1.3",
+  "description": "An extension for avoiding AI slop",
   "action": {
     "default_popup": "popup.html",
     "default_title": "Slop Evader"
@@ -15,7 +15,7 @@
   "permissions": [],
   "browser_specific_settings": {
     "gecko": {
-      "id": "shlopshlop@example.com",
+      "id": "tega.brain@gmail.com",
       "strict_min_version": "109.0"
     }
   }

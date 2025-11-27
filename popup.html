@@ -5,26 +5,32 @@
     <style>
       @font-face {
         font-family: "Shlop";
-        src: url("shloprg.otf") format("opentype");
+        src: url("shlop.otf") format("opentype");
       }
       body {
         width: 400px;
         padding: 15px;
         font-family: Arial, san-serif;
-        background-color: #ffdabe;
-        /* background-color: #ffff9d; */
-        /* background-color: #a6e04a; */
+        background-image: url("blob.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
       }
       h2 {
         font-family: Shlop, sans-serif;
+        letter-spacing: 2px;
         font-size: 4em;
         margin-top: 0;
-        margin-bottom: 15px;
-        color: #bc7bc8;
+        margin-bottom: 5px;
+        color: #fff88a;
         display: flex;
         align-items: center;
         gap: 8px;
         justify-content: center;
+        text-shadow: -1px -1px 0 #000,  
+               1px -1px 0 #000,
+               -1px 1px 0 #000,
+               1px 1px 0 #000;
       }
       h2 img {
         height: 40px;
@@ -32,11 +38,23 @@
       }
       h3 {
         margin-top: 0;
+
         font-weight: normal;
         font-size: 12px;
         font-style: italic;
         margin-bottom: 12px;
-        color: #333;
+        color: white;
+        text-align: center;
+      }
+      h4 a{
+        margin-top: 0;
+        font-weight: normal;
+        font-size: 12px;
+        margin-bottom: 12px;
+        color: white;
+       position: absolute;
+       bottom: 0px; 
+       right: 15px;
       }
       .search-item {
         margin-bottom: 12px;
@@ -63,13 +81,13 @@
       }
       input:focus {
         outline: none;
-        border-color: #4caf50;
+        border-color: #ffe600;
       }
       button {
         padding: 8px 16px;
         /* background-color: #ffff9d; */
-        background-color: #a6e04a;
-        color: white;
+        background-color: #fff88a;
+        color: #401314;
         border: none;
         border-radius: 4px;
         cursor: pointer;
@@ -77,19 +95,18 @@
         white-space: nowrap;
       }
       button:hover {
-        background-color: #45a049;
+        background-color: #ffe600;
       }
     </style>
   </head>
   <body>
     <h2>
-      <img src="logo5.png" alt="Logo" />
+      <!-- <img src="logo7.png" alt="Logo" /> -->
       Slop Evader
-      <img src="logo5.png" alt="Logo" />
+      <!-- <img src="logo7.png" alt="Logo" /> -->
     </h2>
     <h3>Search before Nov 30th 2022:</h3>
     <div class="search-item">
-      <label>Google</label>
       <div class="search-row">
         <input
           type="text"
@@ -100,8 +117,18 @@
         <button class="go-btn" data-site="google">▶</button>
       </div>
     </div>
+        <div class="search-item">
+      <div class="search-row">
+        <input
+          type="text"
+          class="search-input"
+          data-site="duckduckgo"
+          placeholder="Search DuckDuckGo..."
+        />
+        <button class="go-btn" data-site="duckduckgo">▶</button>
+      </div>
+    </div>
     <div class="search-item">
-      <label>Reddit</label>
       <div class="search-row">
         <input
           type="text"
@@ -113,7 +140,6 @@
       </div>
     </div>
     <div class="search-item">
-      <label>Quora</label>
       <div class="search-row">
         <input
           type="text"
@@ -125,7 +151,6 @@
       </div>
     </div>
     <div class="search-item">
-      <label>Stack Exchange</label>
       <div class="search-row">
         <input
           type="text"
@@ -137,7 +162,6 @@
       </div>
     </div>
     <div class="search-item">
-      <label>Mumsnet</label>
       <div class="search-row">
         <input
           type="text"
@@ -149,7 +173,6 @@
       </div>
     </div>
     <div class="search-item">
-      <label>Pinterest</label>
       <div class="search-row">
         <input
           type="text"
@@ -160,6 +183,23 @@
         <button class="go-btn" data-site="pinterest">▶</button>
       </div>
     </div>
+    <div class="search-item">
+  <div class="search-row">
+    <input
+      type="text"
+      class="search-input"
+      data-site="youtube"
+      placeholder="Search YouTube..."
+    />
+    <button class="go-btn" data-site="youtube">▶</button>
+  </div>
+</div>
+    
+   <h2>
+      <img src="logo9.png" alt="Logo" />
+      </h2>
+      <h4><a href="https://tegabrain.com/Slop-Evader">About ↗</a></h4>
+   </body>
     <script src="popup.js"></script>
   </body>
 </html>
